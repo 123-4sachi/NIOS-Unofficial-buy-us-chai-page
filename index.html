@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy us a  chai ☕</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    
+    
+
+    <!-- //HEADER PART -->
+    <div class="container">
+        <div class="chai-icon">
+            <img src="nios unoffical logo.jpg">
+            <div class="steam-animation">
+                <span class="steam"></span>
+                <span class="steam"></span>
+                <span class="steam"></span>
+            </div>
+        </div>
+        
+        <h1>Buy NIOS Unofficial Student Community A Chai 😋</h1>
+        <p class="subtitle">Support our work with a warm cup of chai! ☕</p>
+
+
+        <!-- AMOUnt and payment part -->
+        
+        <div class="amount-section">
+            <h3 class="amount-title">Select an amount</h3>
+            
+            
+            <div class="preset-amounts">
+                <button class="amount-btn" data-amount="50">₹50 <br> normal chai </button>
+                <button class="amount-btn" data-amount="100">₹100 <br> with samosa</button>
+                <button class="amount-btn" data-amount="200">₹200 <br> special chai</button>
+                <button class="amount-btn" data-amount="500">₹500 <br> premium chai</button>
+            </div>
+            
+            <div class="custom-amount">
+                <label for="customAmount">Or enter a custom amount:</label>
+                <input type="number" id="customAmount" class="amount-input" placeholder="Enter amount in ₹" min="1">
+            </div>
+        </div>
+        
+        <button class="donate-btn" id="donateBtn" disabled>
+            Generate Payment Link ☕
+        </button>
+
+        <!-- UPI ID msg PART -->
+        
+        <div class="qr-section">
+            <div class="qr-code" id="qrCode"></div>
+            <div class="payment-info" id="paymentInfo">
+                <div class="thank-you">Thank you for your support! 🙏</div>
+                <p>Scan the QR code above or use the payment details below:</p>
+                <div style="margin-top: 15px; font-family: monospace;">
+                    <strong>UPI ID:</strong>  niosstudentcommunity@kotak<br>
+                    <strong>Amount:</strong> ₹<span id="selectedAmount">0</span><br>
+                    <strong>Note:</strong> Buy us a chai ☕
+                </div>
+            </div>
+        </div>
+        
+        <!-- Recent Donations Section -->
+        <div class="donations-section">
+            <h3 class="donations-title">Recent Support ❤️</h3>
+            <div class="donations-list" id="donationsList">
+                <!-- Donations will be populated by JavaScript -->
+            </div>
+        </div>
+        
+        <div class="message">
+            <p><strong>Your support means the world to us!</strong></p>
+            <p> Thank you for buying NIOS Unofficial Students Community a cup of chai or Samosa 😋, Every chai helps to fuel our creativity and keeps me motivated to run this community 🌟</p>
+        </div>
+    </div>
+
+    <!-- QR Code Generation Library -->
+    <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.js"></script>
+    
+    <script src="script.js">
+    </script>
+</body>
+</html>
