@@ -127,6 +127,18 @@ function generateTransactionId() {
 // --- Fake donations data (replace with real data if available) ---
 const fakeDonations = [
     {
+        name: "manish bagel",
+        amount: 50,
+        message: "A small contribution to a great cause! Your support means a lot to us. Thank you! 🙏",
+        time: ""
+    },
+    {
+        name: "rithesh verma",
+        amount: 50,
+        message: "Thanks for your support! 🙏",
+        time: ""
+    },
+    {
         name: "Riya",
         amount: 200,
         message: "Couldn't have asked for a better thing. Thank you helping me out in my whole NIOS journey, btw special thanks to Hrithik! 💕",
@@ -155,20 +167,9 @@ const fakeDonations = [
         amount: 100,
         message: " Keep up the amazing work.  chai is well deserved! btw Hrithik is my goat ",
         time: ""
-    },
-    {
-        name: "deepanshi",
-        amount: 30,
-        message: " thanks for all the help, you guys are the best! Keep up the amazing work.  chai is well deserved! ",
-        time: ""
-    },
-    {
-        name: "ajay",
-        amount: 300,
-        message: "special thanks to woodpacker he helped me a lot in my journey, THANK YOU!",
-        time: ""
-    },
-    
+    }
+
+
 
 ];
 // --- Show more effect for donations (expand/collapse) ---
