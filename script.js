@@ -127,6 +127,30 @@ function generateTransactionId() {
 // --- Fake donations data (replace with real data if available) ---
 const fakeDonations = [
     {
+        name: "glad bend",
+        amount: 911,
+        message: "thank you for creating the discord servr and whole community",
+        time: ""
+    },
+    {
+        name: "head-ice5826",
+        amount: 10,
+        message: "already 12th passed from icse board, but only had 73, appearing for nios to clear 75% for jee, your subreddit helped alot about the nios information and all",
+        time: ""
+    },
+    {
+        name: "u/advanced-novel3307",
+        amount: 50,
+        message: "just gratitude and my best wishes, got my result and satisfied! love the community, also contributed my notes too",
+        time: ""
+    },
+    {
+        name: "Anonymous",
+        amount: 14,
+        message: "small amount but huge gratitude, ",
+        time: ""
+    },
+    {
         name: "manish bagel",
         amount: 50,
         message: "A small contribution to a great cause! Your support means a lot to us. Thank you! 🙏",
