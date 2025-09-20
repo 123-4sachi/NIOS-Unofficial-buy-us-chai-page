@@ -134,7 +134,7 @@ const fakeDonations = [
     },
     {
         name: "head-ice5826",
-        amount: 10,
+        amount: 15,
         message: "already 12th passed from icse board, but only had 73, appearing for nios to clear 75% for jee, your subreddit helped alot about the nios information and all",
         time: ""
     },
