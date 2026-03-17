@@ -127,6 +127,30 @@ function generateTransactionId() {
 // --- Fake donations data (replace with real data if available) ---
 const fakeDonations = [
     {
+        name: "Sane",
+        amount: 369,
+        message: "East or West Nios unofficial gng is best, Ab result ke din 6969 rs",
+        time: "17 March"
+    },
+    {
+        name: "Asta",
+        amount: 200,
+        message: " I goon to this community ",
+        time: "2 March"
+    },
+    {
+        name: "Notthere",
+        amount: 1000,
+        message: "I will legit marry a woodpecker ",
+        time: "13 March"
+    },
+    {
+        name: "Tyco",
+        amount: 50,
+        message: "CBSE ke xhuda hua hu",
+        time: "2 March"
+    }, 
+    {
         name: "glad bend",
         amount: 911,
         message: "thank you for creating the discord servr and whole community",
