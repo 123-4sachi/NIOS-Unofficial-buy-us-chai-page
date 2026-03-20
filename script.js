@@ -141,7 +141,7 @@ const fakeDonations = [
     {
         name: "Notthere",
         amount: 1000,
-        message: "I will legit marry a woodpecker ",
+        message: "I will legit marry  woodpecker ",
         time: "13 March"
     },
     {
